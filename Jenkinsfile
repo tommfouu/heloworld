@@ -15,6 +15,7 @@ pipeline{
                     echo "M2_HOME = ${M2_HOME}"
                     '''
             }
+        }
             stage('Build') {
                 steps {
                     sh 'mvn compile'
@@ -25,6 +26,5 @@ pipeline{
                     sh 'mvn test'
                 }
             }
-        }
     }
 }
