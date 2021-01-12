@@ -17,11 +17,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>snapshot</id>
-      <url>http://localhost:8081/nexus/content/repository/snapshot/</url>
+      <url>http://localhost:8081/repository/snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>release</id>
-      <url>http://localhost:8081/nexus/content/repository/release/</url>
+      <url>http://localhost:8081/repository/release/</url>
     </repository>
 </distributionManagement>
 
