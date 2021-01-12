@@ -11,8 +11,19 @@
 	    <artifactId>junit</artifactId>
 	    <version>4.12</version>
 	    <scope>test</scope>
-	</dependency>
+	 </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>snapshot</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>release</id>
+      <url>http://localhost:8081/nexus/content/repositories/release/</url>
+    </repository>
+</distributionManagement>
 
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
