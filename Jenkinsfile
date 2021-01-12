@@ -31,6 +31,7 @@ pipeline {
                     //withMaven(mavenSettingsConfig: 'maven-config', globalMavenSettingsConfig: 'global-config') {
                     bat "mvn -s C:/Users/tmfouou/.m2/settings.xml deploy"
                 }
+            }
 
  
 }
